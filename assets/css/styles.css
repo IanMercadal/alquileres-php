@@ -181,9 +181,32 @@ textarea {
     font-size: 3.2rem;
 }
 /* NOSOTROS */ 
-#nosotros .columna {
+#nosotros .columna , #casa-info .columna  {
     align-items: flex-start;
     justify-content: center;
+}
+/* CASA */
+#casa-info {
+    align-items: start;
+}
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+}
+.casa-imagen {
+    border-radius: 2rem;
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+.casa-imagen-galeria {
+    width: 100%;
+    margin-top: 1rem;
+}
+.casa-fotos {
+    display: flex;
+    flex-direction: column;
 }
 /* FORM */
 .form {

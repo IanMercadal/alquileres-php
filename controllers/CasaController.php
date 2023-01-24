@@ -9,6 +9,12 @@ class casaController {
     function list() {
         require_once './views/casas.php';
     }
+    function casa() {
+        require_once './views/casa.php';
+    }
+    function reserva() {
+        require_once './views/reserva.php';
+    }
 }
 
 ?>
