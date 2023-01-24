@@ -1,0 +1,204 @@
+:root {
+    font-family: 'Roboto', sans-serif;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+/* GLOBALES */
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+a, p {
+    font-size: 1.6rem;
+}
+h2 {
+    font-size: 2.8rem;
+    text-align: center;
+}
+h3 {
+    font-size: 2.1rem;
+    text-align: center;
+}
+h4 {
+    font-size: 1.8rem;
+    text-align: center;
+}
+/* UTILS */
+
+.text-center {
+    text-align: center;
+}
+.seccion {
+    margin: 2rem ;
+}
+.btn-primary {
+    background-color: #000;
+    color:#fff;
+    border: 1rem;
+    font-weight: bolder;
+    height: 30px;
+    width: 120px;
+    border-radius: 1rem;
+}
+.tres-columnas {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    justify-items: center;
+}
+.dos-columnas {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    align-items: center;
+    justify-items: center;
+}
+.sombra {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagen-columna {
+    background-image: url(../img/utils/example-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 600px;
+    border-radius: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.check-list {
+    display: flex;
+    flex-direction: column;
+}
+.check {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.casa-imagen-stock {
+    border-radius: 2rem;
+    object-fit: cover;
+    width: 350px;
+    height: 350px;
+}
+.casa-info-stock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.casa-info-stock h4 {
+    margin: 0.4rem;
+}
+
+
+/* MENU */
+.navigation {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+}
+.nav-options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-logo {
+    width: 100px;
+    margin: 1rem;
+}
+.nav-link {
+    padding: 1rem;
+    color: white;
+}
+.nav-link:hover {
+    background-color: white;
+    color: black;
+    transition: ease-in 0.4s;
+}
+.nav-perfil-img {
+    border-radius: 50%;
+    width: 50px;
+}
+
+/* BANNER */
+.banner {
+    background-image: url(../img/utils/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+
+    display: grid;
+    grid-template-rows: 20% 80%;
+    justify-items: center;
+}
+
+.banner-text {
+    text-align: center;
+    color: white;
+}
+.btn-banner {
+    border: 2px solid white;
+    border-radius: 0.8rem;
+    color: white;
+    background-color: transparent;
+    height: 40px;
+    width: 120px;
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+#banner-titulo {
+    font-size: 3.2rem;
+}
+
+/* RESEÑA */
+.testimonio  {
+    width: 90%;
+}
+.user-pic-nombre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+}
+.navigation-footer {
+
+}
+.nav-options-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.nav-link-footer {
+    color: #000;
+    padding: 1rem;
+}
+.nav-link-footer:hover {
+    background-color: #000;
+    color: white;
+}
