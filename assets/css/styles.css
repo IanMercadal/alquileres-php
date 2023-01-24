@@ -37,7 +37,7 @@ h4 {
     text-align: center;
 }
 .seccion {
-    margin: 2rem ;
+    margin: 4rem 10rem;
 }
 .btn-primary {
     background-color: #000;
@@ -47,6 +47,7 @@ h4 {
     height: 30px;
     width: 120px;
     border-radius: 1rem;
+    margin-bottom: 1rem;
 }
 .tres-columnas {
     display: grid;
@@ -101,6 +102,8 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    border-bottom: 2px solid #000;
 }
 .casa-info-stock h4 {
     margin: 0.4rem;
@@ -184,6 +187,7 @@ h4 {
     grid-template-columns: repeat(2,1fr);
     justify-items: center;
     align-items: center;
+    border-top: 2px solid black;
 }
 .navigation-footer {
 
@@ -201,4 +205,50 @@ h4 {
 .nav-link-footer:hover {
     background-color: #000;
     color: white;
+}
+.redes-sociales {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 1180px) {
+    .tres-columnas {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .dos-columnas {
+        display: flex;
+        flex-direction: column;
+    }
+    .imagen-columna {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 790px) {
+    .tres-columnas {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media (max-width: 512px)  {
+    .nav-logo {
+        width: 60%;
+    }
+    .imagen-columna {
+        width: 250px;
+        height: 250px;
+    }
+    .casa-imagen-stock {
+        width: 250px;
+        height: 250px;
+    }
+    .seccion {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
 }
