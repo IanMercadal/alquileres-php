@@ -7,7 +7,7 @@ class casaController {
         require_once './views/index.php';
     }
     function list() {
-        echo "list";
+        require_once './views/casas.php';
     }
 }
 

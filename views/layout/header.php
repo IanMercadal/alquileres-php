@@ -21,9 +21,9 @@
                 <img class="nav-logo" src="<?php echo base_url ?>/assets/img/utils/logo.jpg">
 
                 <div class="nav-options">
-                    <a href="" class="nav-link">Inicio</a>
-                    <a href="" class="nav-link">Casas</a>
-                    <a href="" class="nav-link">Nosotros</a>
+                    <a href="<?php echo base_url ?>" class="nav-link">Inicio</a>
+                    <a href="<?php echo base_url ?>/casa/list" class="nav-link">Casas</a>
+                    <a href="<?php echo base_url ?>/page/nosotros" class="nav-link">Nosotros</a>
         
                     <a href="" class="nav-perfil"><img class="nav-perfil-img" src="<?php echo base_url ?>/assets/img/utils/pic-1.png"></a>
                 </div>
@@ -38,13 +38,13 @@
 
         </div>
     <?php else :?>
-        <nav class="navigation">
+        <nav class="navigation dark-option">
             <img class="nav-logo" src="<?php echo base_url ?>/assets/img/utils/logo.jpg">
 
             <div class="nav-options">
-                <a href="" class="nav-link">Inicio</a>
-                <a href="" class="nav-link">Casas</a>
-                <a href="" class="nav-link">Nosotros</a>
+                <a href="<?php echo base_url ?>" class="nav-link">Inicio</a>
+                <a href="<?php echo base_url ?>/casa/list" class="nav-link">Casas</a>
+                <a href="<?php echo base_url ?>/page/nosotros" class="nav-link">Nosotros</a>
     
                 <a href="" class="nav-perfil"><img class="nav-perfil-img" src="<?php echo base_url ?>/assets/img/utils/pic-1.png"></a>
             </div>

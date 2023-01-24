@@ -16,7 +16,7 @@ body {
 a {
     text-decoration: none;
 }
-a, p {
+a, p, label {
     font-size: 1.6rem;
 }
 h2 {
@@ -30,6 +30,14 @@ h3 {
 h4 {
     font-size: 1.8rem;
     text-align: center;
+}
+input {
+    border: none;
+    border-bottom: 1px solid #000;
+}
+textarea {
+    height: 100px;
+    resize: none;
 }
 /* UTILS */
 
@@ -108,7 +116,9 @@ h4 {
 .casa-info-stock h4 {
     margin: 0.4rem;
 }
-
+.dark-option {
+    background-color: rgb(68, 68, 68);
+}
 
 /* MENU */
 .navigation {
@@ -170,7 +180,24 @@ h4 {
 #banner-titulo {
     font-size: 3.2rem;
 }
-
+/* NOSOTROS */ 
+#nosotros .columna {
+    align-items: flex-start;
+    justify-content: center;
+}
+/* FORM */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.input-box {
+    display: flex;
+    flex-direction: column;
+}
 /* RESEÑA */
 .testimonio  {
     width: 90%;
