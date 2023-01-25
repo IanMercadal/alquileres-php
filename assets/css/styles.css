@@ -34,6 +34,7 @@ h4 {
 input {
     border: none;
     border-bottom: 1px solid #000;
+    height: 30px;
 }
 textarea {
     height: 100px;
@@ -56,6 +57,11 @@ textarea {
     width: 120px;
     border-radius: 1rem;
     margin-bottom: 1rem;
+    cursor: pointer;
+}
+.btn-primary:hover {
+    transform: scale(1.05);
+    transition: ease-in 0.2s;
 }
 .tres-columnas {
     display: grid;
@@ -119,7 +125,9 @@ textarea {
 .dark-option {
     background-color: rgb(68, 68, 68);
 }
-
+.hidden {
+    display: none;
+}
 /* MENU */
 .navigation {
     display: grid;
@@ -184,9 +192,10 @@ textarea {
 #nosotros .columna , #casa-info .columna  {
     align-items: flex-start;
     justify-content: center;
+    width: 100%;
 }
 /* CASA */
-#casa-info {
+#casa-info, #nosotros {
     align-items: start;
 }
 .galeria {
@@ -203,6 +212,7 @@ textarea {
 .casa-imagen-galeria {
     width: 100%;
     margin-top: 1rem;
+    border-radius: 1rem;
 }
 .casa-fotos {
     display: flex;
@@ -213,7 +223,7 @@ textarea {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    width: 600px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -255,6 +265,7 @@ textarea {
 .nav-link-footer:hover {
     background-color: #000;
     color: white;
+    transition: ease-in 0.4s;
 }
 .redes-sociales {
     display: flex;
@@ -282,6 +293,9 @@ textarea {
     .tres-columnas {
         display: grid;
         grid-template-columns: repeat(1,1fr);
+    }
+    .casa-imagen {
+        height: 300px;
     }
 }
 
