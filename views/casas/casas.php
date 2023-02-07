@@ -9,7 +9,7 @@
                 <p><b>Localización:</b> Valldemossa</p>
                 <div class="dos-columnas">
                     <p><b>2.000 $</b></p>
-                    <button class="btn-primary">Ver</button>
+                    <a href="<?php echo base_url ?>/casa/casa" class="btn-primary">Ver</a>
                 </div>
             </div>
         </div>
@@ -20,7 +20,7 @@
                 <p><b>Localización:</b> Valldemossa</p>
                 <div class="dos-columnas">
                     <p><b>2.000 $</b></p>
-                    <button class="btn-primary">Ver</button>
+                    <a href="<?php echo base_url ?>/casa/casa" class="btn-primary">Ver</a>
                 </div>
             </div>
         </div>
@@ -31,7 +31,7 @@
                 <p><b>Localización:</b> Valldemossa</p>
                 <div class="dos-columnas">
                     <p><b>2.000 $</b></p>
-                    <button class="btn-primary">Ver</button>
+                    <a href="<?php echo base_url ?>/casa/casa" class="btn-primary">Ver</a>
                 </div>
             </div>
         </div>
@@ -42,7 +42,7 @@
                 <p><b>Localización:</b> Valldemossa</p>
                 <div class="dos-columnas">
                     <p><b>2.000 $</b></p>
-                    <button class="btn-primary">Ver</button>
+                    <a href="<?php echo base_url ?>/casa/casa" class="btn-primary">Ver</a>
                 </div>
             </div>
         </div>
@@ -53,7 +53,7 @@
                 <p><b>Localización:</b> Valldemossa</p>
                 <div class="dos-columnas">
                     <p><b>2.000 $</b></p>
-                    <button class="btn-primary">Ver</button>
+                    <a class="btn-primary">Ver</a>
                 </div>
             </div>
         </div>
@@ -64,7 +64,7 @@
                 <p><b>Localización:</b> Valldemossa</p>
                 <div class="dos-columnas">
                     <p><b>2.000 $</b></p>
-                    <button class="btn-primary">Ver</button>
+                    <a class="btn-primary">Ver</a>
                 </div>
             </div>
         </div>

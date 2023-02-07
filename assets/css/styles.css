@@ -36,10 +36,12 @@ input {
     border: none;
     border-bottom: 1px solid #000;
     height: 30px;
+    background-color: var(--background-color);
 }
 textarea {
     height: 100px;
     resize: none;
+    background-color: var(--background-color);
 }
 /* UTILS */
 
@@ -59,6 +61,7 @@ textarea {
     border-radius: 1rem;
     margin-bottom: 1rem;
     cursor: pointer;
+    text-align: center;
 }
 .btn-primary:hover {
     transform: scale(1.05);
@@ -110,6 +113,13 @@ textarea {
     margin-right: auto;
     object-fit: cover;
 }
+#columna-info, #columna-reserva {
+    justify-content: flex-start !important;
+    background-color: transparent;
+}
+#columna-reserva h2, #columna-info h2 {
+    margin-top: 0;
+}
 .check-list {
     display: flex;
     flex-direction: column;
@@ -138,6 +148,9 @@ textarea {
 .dark-option {
     background-color: rgb(68, 68, 68);
 }
+.no-background {
+    background-color: transparent;
+}
 .hidden {
     display: none;
 }
@@ -154,7 +167,7 @@ textarea {
     justify-content: space-around;
 }
 .nav-logo {
-    width: 100px;
+    width: 64px;
     margin: 1rem;
 }
 .nav-link {
@@ -246,7 +259,6 @@ textarea {
 }
 /* RESEÑA */
 .testimonio  {
-    width: 90%;
     background-color: white;
     border-radius: 1rem;
     padding: 1rem;
@@ -270,9 +282,7 @@ textarea {
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
-}
-.navigation-footer {
-
+    align-items: center;
 }
 .nav-options-footer {
     display: flex;

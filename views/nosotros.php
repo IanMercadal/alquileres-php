@@ -1,7 +1,7 @@
 <section class="seccion">
     <div id="nosotros" class="dos-columnas">
         <div class="imagen-columna"></div>
-        <div class="columna">
+        <div class="columna no-background">
             <h2>Nosotros</h2>
             <h3>El mejor sitio para alquilar casas en Mallorca</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse magnam commodi molestiae cupiditate magni quisquam hic dolor nobis consequuntur eligendi repudiandae quaerat voluptas libero eos inventore, dicta ex sunt rem.

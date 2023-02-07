@@ -22,9 +22,9 @@
 </section>
 
 <section class="seccion">
-    <div class="dos-columnas">
+    <div id="nosotros" class="dos-columnas">
         <div class="imagen-columna"></div>
-        <div class="columna">
+        <div class="columna no-background">
             <h3>El mejor sitio para alquilar casas en Mallorca</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti iusto, voluptate in facere deleniti perspiciatis, sequi repellat.</p>
             <div class="check-list">
@@ -105,7 +105,7 @@
                 <div class="user-pic-nombre">
                     <img class="nav-perfil-img" src="<?php echo base_url ?>/assets/img/utils/pic-1.png">
                     <p><b>Usuario User</b></p>
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/quotes.png">
+                    
                     <div class="estrellas">
                         <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
                         <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
@@ -122,31 +122,14 @@
                 <div class="user-pic-nombre">
                     <img class="nav-perfil-img" src="<?php echo base_url ?>/assets/img/utils/pic-1.png">
                     <p><b>Usuario User</b></p>
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/quotes.png">
-                </div>
-                <div class="estrellas">
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi fugiat ea suscipit iure maiores nulla officia ducimus exercitationem asperiores eius pariatur repudiandae saepe eaque, non explicabo accusantium aperiam doloribus quisquam?</p>
-            </div>
-        </div>
-        <div class="testimonio sombra">
-            <div class="usuario">
-                <div class="user-pic-nombre">
-                    <img class="nav-perfil-img" src="<?php echo base_url ?>/assets/img/utils/pic-1.png">
-                    <p><b>Usuario User</b></p>
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/quotes.png">
-                </div>
-                <div class="estrellas">
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                    
+                    <div class="estrellas">
+                        <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                        <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                        <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                        <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                        <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                    </div>
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi fugiat ea suscipit iure maiores nulla officia ducimus exercitationem asperiores eius pariatur repudiandae saepe eaque, non explicabo accusantium aperiam doloribus quisquam?</p>
             </div>
@@ -156,31 +139,14 @@
                 <div class="user-pic-nombre">
                     <img class="nav-perfil-img" src="<?php echo base_url ?>/assets/img/utils/pic-1.png">
                     <p><b>Usuario User</b></p>
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/quotes.png">
-                </div>
-                <div class="estrellas">
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi fugiat ea suscipit iure maiores nulla officia ducimus exercitationem asperiores eius pariatur repudiandae saepe eaque, non explicabo accusantium aperiam doloribus quisquam?</p>
-            </div>
-        </div>
-        <div class="testimonio sombra">
-            <div class="usuario">
-                <div class="user-pic-nombre">
-                    <img class="nav-perfil-img" src="<?php echo base_url ?>/assets/img/utils/pic-1.png">
-                    <p><b>Usuario User</b></p>
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/quotes.png">
-                </div>
-                <div class="estrellas">
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                    
+                    <div class="estrellas">
+                        <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                        <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                        <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                        <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                        <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                    </div>
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi fugiat ea suscipit iure maiores nulla officia ducimus exercitationem asperiores eius pariatur repudiandae saepe eaque, non explicabo accusantium aperiam doloribus quisquam?</p>
             </div>
@@ -190,14 +156,48 @@
                 <div class="user-pic-nombre">
                     <img class="nav-perfil-img" src="<?php echo base_url ?>/assets/img/utils/pic-1.png">
                     <p><b>Usuario User</b></p>
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/quotes.png">
+                    
+                    <div class="estrellas">
+                        <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                        <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                        <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                        <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                        <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                    </div>
                 </div>
-                <div class="estrellas">
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
-                    <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi fugiat ea suscipit iure maiores nulla officia ducimus exercitationem asperiores eius pariatur repudiandae saepe eaque, non explicabo accusantium aperiam doloribus quisquam?</p>
+            </div>
+        </div>
+        <div class="testimonio sombra">
+            <div class="usuario">
+                <div class="user-pic-nombre">
+                    <img class="nav-perfil-img" src="<?php echo base_url ?>/assets/img/utils/pic-1.png">
+                    <p><b>Usuario User</b></p>
+                    
+                    <div class="estrellas">
+                        <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                        <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                        <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                        <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                        <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi fugiat ea suscipit iure maiores nulla officia ducimus exercitationem asperiores eius pariatur repudiandae saepe eaque, non explicabo accusantium aperiam doloribus quisquam?</p>
+            </div>
+        </div>
+        <div class="testimonio sombra">
+            <div class="usuario">
+                <div class="user-pic-nombre">
+                    <img class="nav-perfil-img" src="<?php echo base_url ?>/assets/img/utils/pic-1.png">
+                    <p><b>Usuario User</b></p>
+                    
+                    <div class="estrellas">
+                        <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                        <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                        <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                        <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                        <img src="<?php echo base_url ?>/assets/img/utils/icons/star.png">
+                    </div>
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi fugiat ea suscipit iure maiores nulla officia ducimus exercitationem asperiores eius pariatur repudiandae saepe eaque, non explicabo accusantium aperiam doloribus quisquam?</p>
             </div>

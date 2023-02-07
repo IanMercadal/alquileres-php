@@ -1,6 +1,6 @@
 <footer class="footer">
     <div class="logo-redes">
-        <img class="nav-logo" src="<?php echo base_url ?>/assets/img/utils/logo.jpg">
+        <img class="nav-logo" src="<?php echo base_url ?>/assets/img/utils/logo.png">
         <div class="redes-sociales">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>

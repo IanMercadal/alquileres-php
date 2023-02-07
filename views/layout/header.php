@@ -18,7 +18,7 @@
     <?php if ($_SERVER['REQUEST_URI'] == "/") :?>
         <div class="banner">
             <nav class="navigation">
-                <img class="nav-logo" src="<?php echo base_url ?>/assets/img/utils/logo.jpg">
+                <img class="nav-logo" src="<?php echo base_url ?>/assets/img/utils/logo.png">
 
                 <div class="nav-options">
                     <a href="<?php echo base_url ?>" class="nav-link">Inicio</a>
@@ -39,7 +39,7 @@
         </div>
     <?php else :?>
         <nav class="navigation dark-option">
-            <img class="nav-logo" src="<?php echo base_url ?>/assets/img/utils/logo.jpg">
+            <img class="nav-logo" src="<?php echo base_url ?>/assets/img/utils/logo.png">
 
             <div class="nav-options">
                 <a href="<?php echo base_url ?>" class="nav-link">Inicio</a>
